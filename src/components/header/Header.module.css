@@ -3,6 +3,7 @@
     height: 10vh;
     margin: auto;
     background-color: rgb(93, 155, 209);
+    border-radius: 0.5em;
 }
 
 .nav {

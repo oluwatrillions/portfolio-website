@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+  --min-height: 100vh;
+  --font: "Poppins", sans-serif;
+  --background: rgb(47, 63, 77);
+}

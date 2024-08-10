@@ -1,0 +1,12 @@
+.container {
+    height: calc(100vh-10vh);
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    font-family: var(--font-roboto);
+    font-weight: 100;
+    color: rgb(180, 175, 175);
+}

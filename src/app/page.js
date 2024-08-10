@@ -1,10 +1,16 @@
+"use client"
+
 import Image from "next/image";
 import styles from "./page.module.css";
+import Framer from "@/framer-motion/Framer";
 
 export default function Home() {
   return (
-    <main className={styles}>
-      <h1>My portfolio website</h1>
+    <main className={styles.container}>
+      <Framer 
+        text="Welcome to my website..."
+        el="h1"
+      />
     </main>
   );
 }

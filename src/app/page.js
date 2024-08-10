@@ -11,6 +11,22 @@ export default function Home() {
         text="Welcome to my website..."
         el="h1"
       />
+      <div className={styles.content}>
+        <div>
+          <Image src={'/profile-pic.jpg'} width={300} height={300} className={styles.avatar}/>
+          <hi>My name is 
+            <span>
+              <Framer 
+                text= {[
+                  "Ajose Michael Oluwatobi",
+                  "and I am a Fullstack Developer"
+                ]}
+                el= "h1"
+              />
+            </span>
+          </hi>
+        </div>
+      </div>
     </main>
   );
 }

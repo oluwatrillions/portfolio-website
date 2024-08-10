@@ -5,6 +5,7 @@ const Framer = ({text, el: Wrapper="h1" })=>{
 
     const ref = useRef(null);
     const inView = useInView(ref, {amount: 0.5})
+    const textArray = Array.isArray(text) ? text : [text]
 
     const animateTextVariants = {
         hidden: {
@@ -25,8 +26,12 @@ const Framer = ({text, el: Wrapper="h1" })=>{
                 animate={inView ? "visible" : "hidden"}
                 transition={{staggerChildren: 0.2}}
                 >
-                { text && text.split(" ").map((t)=>(
-                    <motion.span key={t} variants={animateTextVariants}>{`${t} `}</motion.span>
+                { textArray.map((t, index)=>(
+                    <span key={`${t}-${index}`}>{t.split(" ").map((char, charIndex)=>(
+                        <span key={`${char}-${charIndex}`}>{char.split(" ").map((texts, textsIndex)=>(
+                            <motion.span key={`${texts}-${textsIndex}`} variants={animateTextVariants}>{`${texts} `}</motion.span>
+                        ))}</span>
+                    ))}</span>
                 ))}
             </motion.span>
         </Wrapper>

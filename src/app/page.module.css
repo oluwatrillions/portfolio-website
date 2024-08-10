@@ -10,3 +10,15 @@
     font-weight: 100;
     color: rgb(180, 175, 175);
 }
+
+.avatar {
+    border-radius: 8em;
+    filter: grayscale(1);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+    margin: 5vh ;
+}

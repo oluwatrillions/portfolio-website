@@ -12,19 +12,26 @@ export default function Home() {
         el="h1"
       />
       <div className={styles.content}>
-        <div>
+        <div className={styles.desc}>
           <Image src={'/profile-pic.jpg'} width={300} height={300} className={styles.avatar}/>
-          <hi>My name is 
-            <span>
+            <span className={styles.info}>
               <Framer 
                 text= {[
-                  "Ajose Michael Oluwatobi",
-                  "and I am a Fullstack Developer"
+                  "My name is ",
+                  "Ajose Michael Oluwatobi", 
+                  "and I am a Fullstack Developer."
                 ]}
                 el= "h1"
               />
             </span>
-          </hi>
+        </div>
+        <div className={styles.tech}>
+          <h2>What I am</h2>
+          <section>
+                <h3>Fullstack developer and Technical writing</h3>
+                <h2>I am a fullstack developer with <span>3</span>years of hands-on experience. Having worked with <span>JAVASCRIPT</span>, <span>REACT</span>, <span>NODEJS</span>, <span>EXPRESSJS</span>, <span>NEXTJS</span>, I have created applications that helped solve client's needs. </h2>
+                <h2>Being a skilled developer, I look forward to collaborating with developers and non-developers to create innovative solutions.</h2>
+          </section>
         </div>
       </div>
     </main>

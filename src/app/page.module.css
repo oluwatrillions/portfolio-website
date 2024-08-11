@@ -8,17 +8,51 @@
     margin-top: 5vh;
     font-family: var(--font-roboto);
     font-weight: 100;
-    color: rgb(180, 175, 175);
+    color: rgb(204, 204, 204);
 }
 
 .avatar {
     border-radius: 8em;
     filter: grayscale(1);
+    margin-top: 1em;
 }
 
 .content {
     display: flex;
     justify-content: space-between;
     gap: 5em;
-    margin: 5vh ;
+    margin: 5vh auto;
+    width: 80vw;
+}
+
+.desc, .tech {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+}
+
+.info {
+    color: rgb(12, 18, 22);
+}
+
+.tech h2 {
+    color: rgb(252, 252, 252);
+    font-weight: 200;
+}
+
+.tech section h3 {
+    font-size: 2em;
+    color: rgb(93, 155, 209);
+    font-family: var(--font-roboto);
+    font-weight: 400;
+}
+
+.tech section h2 {
+    font-size: 1.5em;
+    font-weight: 100;
+    font-family: var(--font-poppins);
+    text-align: left;
 }

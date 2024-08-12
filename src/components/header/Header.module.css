@@ -17,9 +17,23 @@
 .links {
     display: flex;
     justify-content: space-between;
-    gap: 5em;
+    gap: 1em;
     font-size: 1.5em;
     list-style: none;
     cursor: pointer;
     color: rgb(252, 252, 252);
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    width: 4.5em;
+    border-radius: .2em;
+    text-decoration: none;
+}
+
+.active {
+    background-color: aliceblue;
+    color: rgb(7, 7, 7);
+    font-weight: 800;
 }

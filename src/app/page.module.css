@@ -56,3 +56,28 @@
     font-family: var(--font-poppins);
     text-align: left;
 }
+
+.javascript {
+    color:deepskyblue;
+    font-weight: 800;
+}
+
+.react {
+    color: cyan;
+    font-weight: 800;
+}
+
+.express {
+    color:deeppink;
+    font-weight: 800;
+}
+
+.next {
+    color: violet;
+    font-weight: 800;
+}
+
+.node {
+    color: chartreuse;
+    font-weight: 800;
+}

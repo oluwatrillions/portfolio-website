@@ -29,7 +29,7 @@ export default function Home() {
           <h2>What I am</h2>
           <section>
                 <h3>Fullstack developer and Technical writing</h3>
-                <h2>I am a fullstack developer with <span>3</span>years of hands-on experience. Having worked with <span>JAVASCRIPT</span>, <span>REACT</span>, <span>NODEJS</span>, <span>EXPRESSJS</span>, <span>NEXTJS</span>, I have created applications that helped solve client's needs. </h2>
+                <h2>I am a fullstack developer with <span>3</span>years of hands-on experience. Having worked with <span className={styles.javascript}>JAVASCRIPT</span>, <span className={styles.react}>REACT</span>, <span className={styles.node}>NODEJS</span>, <span className={styles.express}>EXPRESSJS</span>, <span className={styles.next}>NEXTJS</span>, I have created applications that helped solve client's needs. </h2>
                 <h2>Being a skilled developer, I look forward to collaborating with developers and non-developers to create innovative solutions.</h2>
           </section>
         </div>

@@ -1,16 +1,23 @@
 .bg {
     width: 100vw;
     height: calc(100vh-10vh);
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    position: absolute;
+    margin: 5vh 0;
 }
 
 .socials h4 {
     color: aliceblue;
     font-size: 1.5em;
-}
-
-.socials {
-    position: absolute;
-    margin-top: 5vh;
+    font-family: var(--font-roboto);
 }
 
 .links {

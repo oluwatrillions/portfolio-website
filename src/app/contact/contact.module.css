@@ -1,0 +1,22 @@
+.bg {
+    width: 100vw;
+    height: calc(100vh-10vh);
+}
+
+.socials h4 {
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+.socials {
+    position: absolute;
+    margin-top: 5vh;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    cursor: pointer;
+}

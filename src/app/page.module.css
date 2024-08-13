@@ -1,11 +1,11 @@
 .container {
     height: calc(100vh-10vh);
+    position: relative;
 }
 
 .container h1 {
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
     font-family: var(--font-roboto);
     font-weight: 100;
     color: rgb(204, 204, 204);

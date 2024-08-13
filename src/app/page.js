@@ -13,7 +13,7 @@ export default function Home() {
       />
       <div className={styles.content}>
         <div className={styles.desc}>
-          <Image src={'/profile-pic.jpg'} width={300} height={300} className={styles.avatar}/>
+          <Image src={'/profile-pic.jpg'} width={300} height={300} className={styles.avatar} alt="avatar"/>
             <span className={styles.info}>
               <Framer 
                 text= {[

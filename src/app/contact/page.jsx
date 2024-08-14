@@ -27,8 +27,16 @@ const page = () => {
             <Link href={"https://dev.to/oluwatrillions"}><FaDev color='white' fontSize={50}/></Link> 
             </ul>
           </div>
-          <div className='styles.message'>
+          <div className={styles.message}>
             <h3>Drop me a message here</h3>
+            <div className={styles.details}>
+              <form className={styles.form}>
+                <input type="text" name='name' placeholder='name:' />
+                <input type="text" name='email' placeholder='email:' />
+                <textarea name="message" id="message" placeholder='type here' rows={10}></textarea>
+                <button>submit</button>
+              </form>
+            </div>
           </div>
         </div>
     </div>

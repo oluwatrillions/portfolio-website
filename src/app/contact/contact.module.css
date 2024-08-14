@@ -14,6 +14,11 @@
     margin: 5vh 0;
 }
 
+.socials {
+    width: 30vw;
+    padding-left: 1em;
+}
+
 .socials h4 {
     color: aliceblue;
     font-size: 1.5em;
@@ -23,7 +28,60 @@
 .links {
     list-style: none;
     display: flex;
-    flex-direction: column;
-    gap: 1em;
+    gap: 2em;
+    margin-top: 3em;
+    margin-left: 0;
+    padding-left: 0;
     cursor: pointer;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40vw;
+}
+
+.message h3 {
+    color: aliceblue;
+}
+
+.details {
+    width: 35vw;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form input {
+    width: 30vw;
+    font-size: 1.2em;
+    height: 3em;
+    outline: none;
+    padding-left: 1em;
+    border-bottom: 1px light grey;
+}
+
+.form button {
+    font-size: 2em;
+    height: 4em;
+    width: 30vw;
+    outline: none;    
+    background-color: rgb(93, 155, 209);
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.form textarea {
+    width: 30vw;
+    font-size: 1.2em;
+    outline: none;
+    border: none;
+    padding: 1em;
 }

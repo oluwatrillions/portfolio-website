@@ -17,6 +17,7 @@
 .socials {
     width: 30vw;
     padding-left: 1em;
+    margin-top: 5em;
 }
 
 .socials h4 {
@@ -54,34 +55,33 @@
 .form {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 }
 
 .form input {
     width: 30vw;
-    font-size: 1.2em;
-    height: 3em;
+    font-size: 1.5em;
     outline: none;
-    padding-left: 1em;
-    border-bottom: 1px light grey;
+    border: 1px grey;
+    padding: 0.5em;
 }
 
 .form button {
-    font-size: 2em;
-    height: 4em;
+    font-size: 1.5em;
     width: 30vw;
     outline: none;    
     background-color: rgb(93, 155, 209);
     color: aliceblue;
-    margin: 0;
-    padding: 0;
     border: none;
+    padding: 0.5em;
 }
 
 .form textarea {
     width: 30vw;
-    font-size: 1.2em;
+    font-size: 1.5em;
     outline: none;
     border: none;
-    padding: 1em;
+    padding: 0.5em;
 }

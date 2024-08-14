@@ -34,7 +34,7 @@ const page = () => {
                 <input type="text" name='name' placeholder='name:' />
                 <input type="text" name='email' placeholder='email:' />
                 <textarea name="message" id="message" placeholder='type here' rows={10}></textarea>
-                <button>submit</button>
+                <button type='submit'>submit</button>
               </form>
             </div>
           </div>

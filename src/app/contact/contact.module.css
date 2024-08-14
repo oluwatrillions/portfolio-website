@@ -45,7 +45,8 @@
 }
 
 .message h3 {
-    color: aliceblue;
+    color: rgb(237, 240, 243);
+    font-size: 1.5em;
 }
 
 .details {
@@ -66,10 +67,12 @@
     outline: none;
     border: 1px grey;
     padding: 0.5em;
+    box-sizing: border-box;
 }
 
 .form button {
-    font-size: 1.5em;
+    font-size: 2em;
+    height: 3em;
     width: 30vw;
     outline: none;    
     background-color: rgb(93, 155, 209);
@@ -84,4 +87,5 @@
     outline: none;
     border: none;
     padding: 0.5em;
+    box-sizing: border-box;
 }

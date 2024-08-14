@@ -28,7 +28,7 @@ const page = () => {
             </ul>
           </div>
           <div className={styles.message}>
-            <h3>Drop me a message here</h3>
+            <h3>Drop me a message here.</h3>
             <div className={styles.details}>
               <form className={styles.form}>
                 <input type="text" name='name' placeholder='name:' />

@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className={styles.container}>
         <nav className={styles.nav}>
-            <Image src={"/demo-image.png"} width={50} height={50} alt='logo'/>
+            <Image src={"/demo-image.png"} width={50} height={50} alt='logo' className={styles.logo}/>
             <ul className={styles.links}>
                 <Link href={"/"} className={`${styles.link} ${pathname.endsWith('/') && styles.active}`}>Home</Link>
                 <Link href={"/projects"} className={`${styles.link} ${pathname.endsWith('/projects') && styles.active}`}>Projects</Link>

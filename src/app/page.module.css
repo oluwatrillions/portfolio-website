@@ -41,6 +41,7 @@
 .tech h2 {
     color: rgb(252, 252, 252);
     font-weight: 200;
+    font-size: 1.5em;
 }
 
 .tech section h3 {
@@ -48,6 +49,7 @@
     color: rgb(93, 155, 209);
     font-family: var(--font-roboto);
     font-weight: 400;
+    margin-top: 0;
 }
 
 .tech section h2 {
